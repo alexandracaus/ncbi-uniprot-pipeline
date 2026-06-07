@@ -2,12 +2,12 @@
 
 An automated cascading computational pipeline designed to maximize protein identifier mapping between NCBI (GenBank/RefSeq) and UniProtKB repositories. This framework is specifically engineered to rescue functional metadata for custom clinical bacterial isolates facing repository downsizing policies.
 
-## 🚀 Features
+## Features
 - **Cascading Architecture:** Sequentially interrogates direct cross-references (Case 0), NCBI Identical Protein Groups (Case 1), and local ClusteredNR databases (Case 2).
 - **Data Rescue:** Bypasses broken online indexes using programmatic UniParc and UniRef90 translation bridges.
 - **FAIR Compliance:** Generates structured logging to guarantee absolute data provenance and reproducibility.
 
-## 📦 Requirements & Installation
+## Requirements & Installation
 The pipeline requires Python 3.x and the `requests` library to handle remote REST API communications.
 
 ```bash
