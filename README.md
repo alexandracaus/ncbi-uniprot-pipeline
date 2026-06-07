@@ -18,17 +18,17 @@ pip install requests
 The script supports execution via input files containing lists of protein identifiers or by passing individual protein accessions directly through the command line.
 
 ### Option 1: Processing an Input File (-f)
-To process a file containing unmappable structural isolates or historical failure lists (e.g., in .tsv or .txt format):
+To process a file containing unmappable structural isolates or historical failure lists (e.g., in .lst or .txt format):
 
 ```bash
-python ncbi_uniprot_pipeline.py -f output/version8/failures/K279-NC_010943.1_2022_2023-protid_v1_failures.tsv
+python ncbi_uniprot_pipeline.py -f file.txt
 ```
 
 ### Option 2: Processing Individual Protein Codes (-p)
 To test or execute a quick mapping lookup for specific protein accessions directly:
 
 ```bash
-python ncbi_uniprot_pipeline.py -p WP_032958795.1
+python ncbi_uniprot_pipeline.py -p code
 ```
 
 ## License
